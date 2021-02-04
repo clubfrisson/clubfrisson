@@ -30,6 +30,7 @@
         html.lt-ie-10 .ie-panel {
             display: block;
         }
+        video {width: 100vw;}
     </style>
 </head>
 
@@ -110,8 +111,14 @@
                 </nav>
             </div>
         </header>
+        <div>
+          <div class="overlay"></div>
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="images/videobanner.mp4" type="video/mp4">
+          </video>
+        </div>
         <!-- Swiper-->
-        <section class="section swiper-container swiper-slider swiper-slider-corporate swiper-pagination-style-2" data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="false" data-direction="vertical">
+        <section style="display: none;" class="section swiper-container swiper-slider swiper-slider-corporate swiper-pagination-style-2" data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="false" data-direction="vertical">
             <div class="swiper-wrapper text-left">
                 <div class="swiper-slide context-dark" data-slide-bg="images/slider-4-slide-1-1920x678.jpg">
                     <div class="swiper-slide-caption section-md">
@@ -430,7 +437,7 @@
                             <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li>
-                                        <a href="#"><img src="images/cta-1-368x420.jpg" alt="" width="368" height="420" /></a>
+                                        <a href="#"><img src="images/service-1.jpg" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Resort Operation</h5>
                                     </li>
                                 </ul>
@@ -438,7 +445,7 @@
                             <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li>
-                                        <a href="#"><img src="images/cta-2-368x420.jpg" alt="" width="368" height="420" /></a>
+                                        <a href="#"><img src="images/service-2.jpg" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Hotel Reservation & Events</h5>
                                     </li>
                                 </ul>
@@ -446,7 +453,7 @@
                             <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li>
-                                        <a href="#"><img src="images/cta-3-368x420.jpg" alt="" width="368" height="420" /></a>
+                                        <a href="#"><img src="images/service-3.jpg" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Association Services</h5>
                                     </li>
                                 </ul>
@@ -455,7 +462,7 @@
                             <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li>
-                                        <a href="#"><img src="images/cta-3-368x420.jpg" alt="" width="368" height="420" /></a>
+                                        <a href="#"><img src="images/service-4.jpg" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Ticket Booking</h5>
                                     </li>
                                 </ul>
@@ -464,7 +471,7 @@
                             <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li>
-                                        <a href="#"><img src="images/cta-3-368x420.jpg" alt="" width="368" height="420" /></a>
+                                        <a href="#"><img src="images/service-5.jpg" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Crusies Booking</h5>
                                     </li>
                                 </ul>
@@ -473,7 +480,7 @@
                             <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
                                 <ul class="list-marked-2 box-categories-list">
                                     <li>
-                                        <a href="#"><img src="images/cta-3-368x420.jpg" alt="" width="368" height="420" /></a>
+                                        <a href="#"><img src="images/service-6.jpg" alt="" width="368" height="420" /></a>
                                         <h5 class="box-categories-title">Exchange Network</h5>
                                     </li>
                                 </ul>

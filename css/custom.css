@@ -11,7 +11,8 @@
 .desktop .offset-negative-1 {margin-top: 40px;}
 .cta-box-wrap .list-marked-2 {margin-bottom: 30px;}
 .unit-spacing-xs, .footer-corporate .footer-contacts .unit > * {display: inline-block;}
-
+.rd-navbar-corporate-contacts .unit-left {display: inline-block;}
+.rd-navbar-corporate-contacts .unit-body {display: inline-block;}
 
 @media (max-width:767px) {
 .product-big-figure img {max-height: auto;}
