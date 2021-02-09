@@ -46,7 +46,7 @@ font-weight: normal;
 }
 
 .main-page {
-  margin-top: 70px;
+  margin-top: 200px;
 }
 
 /* Prelaoder */
@@ -1991,10 +1991,13 @@ font-size: 45px;
     padding:5px ;
     color: #000000;
   }
-}
-
-/* @media screen and (max-width: 992px) {
-    #mobile-nav-toggle i {
-    color:#000000; 
+  #thumb-section .speaker .details {
+  bottom: 0;
   }
-} */
+}
+.aboutus {
+  margin-bottom: 40px;
+}
+.aboutus .about-image {
+  background-size: cover;
+}
