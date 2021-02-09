@@ -389,7 +389,7 @@ justify-content: space-between;
 }
 
 #mobile-nav-toggle i {
-  color: #ffffff;
+  color: #000000;
 }
 
 @media (max-width: 991px) {
