@@ -2089,3 +2089,22 @@ font-size: 45px;
   background: #f8234a;
 
 }
+#destination {
+  padding:0 0 60px 0;
+  margin: 30px 0;
+  /* background: url(../img/services.png) center center no-repeat; */
+  background-size: cover; 
+  overflow: hidden;
+  position: relative;
+}
+#destination h5 {
+  color: #FD832E;
+}
+#destination .destilist a {
+  padding: .75rem 20px 0 0;
+}
+#destination .destilist p {
+
+  font-size: 14px;
+
+}
