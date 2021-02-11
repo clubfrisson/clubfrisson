@@ -643,7 +643,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 1px solid #ffffff;
-  transform: rotate(90deg);
   text-align: center;
   display: flex;
     justify-content: center;
@@ -1988,8 +1987,14 @@ font-size: 45px;
   }
   #mobile-nav ul a {
     display: block;
-    padding:5px ;
+    padding:15px ;
     color: #000000;
+  }
+  .login-btn {
+    margin: 15px;
+  }
+  #intro h1 span {
+    font-size: 60px;
   }
   #thumb-section .speaker .details {
   bottom: 0;
@@ -2011,4 +2016,76 @@ font-size: 45px;
 }
 .nav-pills .nav-link {
   color: #000000;
+}
+.breadcrumbs {
+  font-size: 12px;
+}
+
+
+
+.border-line {
+  border-right: 1px solid #EEEEEE
+}
+.fb-login {
+  background-color: #3b5998;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 5px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer
+}
+
+.tw-login {
+  background-color: #1DA1F2;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 5px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer
+}
+
+.li-login {
+  background-color: #2867B2;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 5px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer
+}
+
+.line {
+  height: 1px;
+  width: 45%;
+  background-color: #E0E0E0;
+  margin-top: 10px
+}
+
+.or {
+  width: 10%;
+  font-weight: bold
+}
+
+.text-sm {
+  font-size: 14px !important
+}
+.login-btn {
+  background: #2A980C;
+  border: 0;
+  padding:5px 20px;
+  border-radius: 30px;
+  color: #ffffff;
+}
+.btn-info.focus, .btn-info:focus {
+  background: #f8234a;
+
+}
+.login-btn:hover, .login-btn.active {
+  background: #f8234a;
+
 }
