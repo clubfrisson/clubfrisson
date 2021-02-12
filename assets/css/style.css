@@ -846,7 +846,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: #444444;
   color: #fff;
   padding: 10px 100px;
 }
@@ -2107,4 +2107,62 @@ font-size: 45px;
 
   font-size: 14px;
 
+}
+.nav-pills a {
+  background: #000;
+}
+
+
+#resorts {
+  padding: 60px 0;
+}
+
+#resorts .resorts {
+  margin-bottom: 30px;
+}
+
+#resorts .resorts:hover .resorts-img img {
+  transform: scale(1.1);
+}
+
+#resorts .resorts-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#resorts .resorts-img img {
+  transition: 0.3s ease-in-out;
+}
+
+#resorts h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#resorts a {
+  color: #000000;
+  font-size: 18px;
+}
+
+#resorts a:hover {
+  color: #2A980C;
+}
+
+#resorts .stars {
+  margin-bottom: 5px;
+}
+
+#resorts .stars i {
+  color: #ffc31d;
+}
+#resorts .stars .customer {
+  font-size: 12px;
+  text-decoration: underline; 
+}
+
+#resorts p {
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 0;
 }
