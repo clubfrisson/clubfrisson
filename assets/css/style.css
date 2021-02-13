@@ -277,7 +277,7 @@ justify-content: space-between;
 }
 
 /* Nav Meu Styling */
-.nav-menu a {
+.nav-menu a, .nav-menu button.btn-primary, .nav-menu button.dropdown-toggle {
   padding: 8px 20px;
   text-decoration: none;
   display: inline-block;
@@ -286,6 +286,8 @@ justify-content: space-between;
   font-weight: bold;
   font-size: 16px;
   outline: none;
+  background: transparent;
+  border: 0;
 }
 
 @media (max-width: 1199px) {
@@ -423,7 +425,7 @@ justify-content: space-between;
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+  color: #000000;
   font-size: 17px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -2162,4 +2164,7 @@ font-size: 45px;
   color: #000000;
   font-size: 14px;
   margin-bottom: 0;
+}
+.hotel-img {
+  margin-top: 20px;
 }
